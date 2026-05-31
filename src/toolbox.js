@@ -1,8 +1,7 @@
 /* eslint-disable func-style */
 /* eslint-disable max-len */
 /* eslint-disable require-jsdoc */
-export default () => {
-    return `
+export default () => `
 <category name="%{BKY_IRREMOTERECEIVER_CATEGORY}" id="IRREMOTERECEIVER_CATEGORY" colour="#BB5E00" secondaryColour="#9F5000">
     <block type="irRemoteReceiver_init" id="irRemoteReceiver_init">
         <field name="PIN">2</field>
@@ -14,4 +13,3 @@ export default () => {
     <block type="irRemoteReceiver_resume" id="irRemoteReceiver_resume">
     </block>
 </category>`;
-};

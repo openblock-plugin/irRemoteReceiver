@@ -1,6 +1,6 @@
 {
   "name": "ir-remote-receiver",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "author": "ArthurZheng",
   "license": "MIT",
   "repository": {
@@ -27,13 +27,13 @@
       }
     },
     "extensionId": "irRemoteReceiver",
-    "supportDevice": [
-      "arduinoUno",
-      "arduinoNano",
-      "arduinoLeonardo",
-      "arduinoMega2560",
-      "arduinoEsp32",
-      "arduinoEsp8266"
+    "arch": [
+      "arduino-avr*",
+      "arduino-esp32*",
+      "arduino-esp8266",
+      "arduino-samd*",
+      "arduino-stm32*",
+      "arduino-mbed*"
     ],
     "iconURL": "./assets/irRemoteReceiver.png",
     "description": {
